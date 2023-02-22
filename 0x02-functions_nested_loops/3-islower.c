@@ -2,17 +2,15 @@
 
 /**
  *_islower - checks for lowercase
- *Returns: int
+ *Returns: 1 for lower and 0 for higher
  *@c: character
  */
 
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
-	{
 		return (1);
-	}else{
+	else
 		return (0);
-	}
 }
 
