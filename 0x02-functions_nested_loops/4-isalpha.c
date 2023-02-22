@@ -8,6 +8,6 @@
 
 int _isalpha(int c)
 {
-	return ((c <= 'Z' && c >= 'A') || ( c <= 'z' $$ c <= 'a'));
+	return ((c >= 'a' && c <= 'z') || ( c >= 'A' $$ c <= 'Z'));
 	
 }
