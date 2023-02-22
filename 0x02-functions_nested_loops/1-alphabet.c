@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *prints the alphabet, lover case
- *Returns void
+ *print_alphabet - lover case
+ *Return: void
  */
 
 void print_alphabet(void)
